@@ -162,8 +162,7 @@ function fun() {
 };
 if ("{{ request.user.allow_auto_transition }}" == "True"){
     myAudio = document.getElementById('audio').firstElementChild;
-    myVideo = document.getElementById('video').firstElementChild;
-    if (myAudio != null && myVideo != null){
+    if (myAudio != null){
         document.getElementById('main').style.display = 'none';
         t = 0;
     }
